@@ -1,0 +1,92 @@
+.header
+{   margin-top:7px;
+    display:flex;
+    justify-content:space-between;
+    background-color:#333;
+    color:white;
+    font-size: 20px;
+    flex-grow:0.4;
+    text-align: center;
+    flex-direction: column;
+
+}
+.header ul
+{
+    display:flex;
+    list-style: none;
+    font-size: 25px;
+    justify-content: space-around;
+    flex-grow:0.2;
+}
+main
+{
+    display:flex;
+}
+.topnav1 ul
+{   
+    margin-top:7px;
+    display:flex;
+    font-size:25px;
+    list-style: none;
+    background-color: whitesmoke;
+    justify-content:space-around;
+    flex-grow:0.4;
+}
+.second
+{
+    text-align: center;
+}
+
+.slider img
+{
+    margin:0;
+}
+.section1 
+{   
+    display: flex;
+    margin-top:7px;
+    justify-content: space-between;
+    
+
+}
+.section1 div{
+    width:33%;
+    height: 600px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 7px;
+}
+.section2
+{
+    display:flex;
+    margin-top:7px;
+    justify-content:space-between;
+    height:700px;
+}
+.section2 div{
+    width:49.5%;
+    background-color: whitesmoke;
+    text-align:center;
+    border-radius: 7px;    
+}
+.section2 div div{
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    height: 31%;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 3px;
+}
+.footer
+{   display: flex;
+    margin-top:7px;
+    border-radius:7px;
+    justify-content: space-around;
+    background-color:#333;
+    flex-grow:0.4;
+    color:white;
+
+}
+
